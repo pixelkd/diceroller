@@ -1,0 +1,14 @@
+/* main-window.css */
+
+.main-window {
+  width: 300px;
+  height: 200px;
+  border: 3px solid #8c6647;
+  background-color: #e5e5e5;
+  padding: 1rem;
+  text-align: center;
+}
+
+.roll-btn {
+  cursor: pointer;
+}

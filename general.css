@@ -1,0 +1,30 @@
+/* general.css */
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f4f1de;
+  color: #3c2f2f;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+section, aside {
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}

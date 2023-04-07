@@ -1,0 +1,8 @@
+/* header-footer.css */
+
+header, footer {
+  text-align: center;
+  background-color: #8c6647;
+  color: #f4f1de;
+  padding: 1rem;
+}

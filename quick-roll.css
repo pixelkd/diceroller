@@ -1,0 +1,32 @@
+/* quick-roll.css */
+
+.quick-roll {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quick-roll button {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 0.5rem;
+  border: 3px solid #388e3c; /* darker and more saturated green */
+  border-radius: 50%;
+  background-color: #4caf50; /* green */
+  color: #3c2f2f;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quick-roll button:focus,
+.quick-roll button:hover {
+  background-color: #66bb6a; /* light green */
+}
+
+.quick-roll button:active {
+  background-color: #81c784; /* brighter green */
+}
